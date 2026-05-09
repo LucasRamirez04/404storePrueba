@@ -109,4 +109,19 @@ El microservicio de **Cliente** actúa como el núcleo de seguridad:
      "cantidad": 
 }
 
+## Base de datos en servidor local
 
+### Cliente
+* db_404store_cliente
+
+### Producto
+* db_404store_producto
+
+### Pedido
+* db_404store_pedido
+
+### Pago
+* db_404store_pago
+
+### Envio
+* db_404store_envio
