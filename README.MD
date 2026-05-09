@@ -48,13 +48,13 @@ El microservicio de **Cliente** actúa como el núcleo de seguridad:
 ### Producto 
 | Método | Endpoint | Descripción |
 | :--- | :--- | :--- |
-| GET | `/api/store/clientes` | Lista todos los productos registrados en el sistema |
-| POST | `/api/store/clientes` | Se regista un nuevo producto |
-| GET | `/api/store/clientes/{id}` | Se busca un producto por su id |
-| GET | `/api/store/clientes/categoria/{nombreCategoria}` | Se filtran los productos por una categoria especifica |
-| PUT | `/api/store/clientes/{id}` | Se actualiza un producto por su id |
-| DELETE | `/api/store/clientes/{id}` | Se elimina un producto del sistema por su id |
-| GET | `/api/store/clientes/{id}/descontar` | EndPoint que ocupa el microservicio Pedido para descontar el stock al producto |
+| GET | `/api/store/productos` | Lista todos los productos registrados en el sistema |
+| POST | `/api/store/productos` | Se regista un nuevo producto |
+| GET | `/api/store/productos/{id}` | Se busca un producto por su id |
+| GET | `/api/store/productos/categoria/{nombreCategoria}` | Se filtran los productos por una categoria especifica |
+| PUT | `/api/store/productos/{id}` | Se actualiza un producto por su id |
+| DELETE | `/api/store/productos/{id}` | Se elimina un producto del sistema por su id |
+| GET | `/api/store/productos/{id}/descontar` | EndPoint que ocupa el microservicio Pedido para descontar el stock al producto |
 
 ###  Pedido
 | Método | Endpoint | Descripción |
