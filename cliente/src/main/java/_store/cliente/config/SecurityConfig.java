@@ -28,8 +28,8 @@ public class SecurityConfig {
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
                         // 1. Endpoints públicos de autenticación
-                        .requestMatchers("/auth/").permitAll()
-                        .requestMatchers("/api/publico/").permitAll()
+                        .requestMatchers("/auth/**").permitAll()
+                        .requestMatchers("/api/publico/**").permitAll()
 
                         // 2. LIBERAR CONSULTAS PARA OTROS MICROSERVICIOS
                         // Esto permite que Pedido haga el GET para sacar la dirección
